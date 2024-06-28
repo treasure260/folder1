@@ -1,0 +1,60 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+  border: 2px solid red;
+  height: 120px;
+  width: 400px;
+  position: relative;
+  
+}
+.one{
+  border: 2px solid black;
+  height: 100px;
+  width: 150px;
+  /* display: inline-block; */
+  position: absolute;
+}
+.one-1{
+  /* border: 2px solid black; */
+  height: 20px;
+}
+.one-2{
+  /* border: 2px solid black; */
+  height: 20px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+}
+.one-3{
+  /* border: 2px solid black; */
+  height: 20px;
+}
+.one-4{
+  /* border: 2px solid black; */
+  height: 20px;
+}
+.two{
+  border: 2px solid green;
+  height: 100px;
+  /* display: inline-block; */
+  width: 150px;
+  position: absolute;
+  left: 200px;
+  
+}
+.two-1{
+  border: 2px solid black;
+  height: 20px;
+}
+.two-2{
+  border: 2px solid black;
+  height: 20px;
+}
+.two-3{
+  border: 2px solid black;
+  height: 20px;
+}
+.two-4{
+  border: 2px solid black;
+  height: 20px;
+}

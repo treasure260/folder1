@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1513689125086-6c432170e843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxvdmUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1400&q=60);
+    
+
+
+    background-repeat: no-repeat;
+
+    height: 110vh;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    width: 100%;
+    /* width: fit-content; */
+    
+}
+
+.result{
+    color: darkgreen;
+    text-align: center;
+    margin-top: 140px;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper-1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.input-male{
+    width: 60%;
+    max-width: 400px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+.input-female{
+    width: 60%;
+    max-width: 400px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.wrapper-2{
+    display: flex;
+    justify-content: center;
+}
+
+.button-match{
+    margin-right: 30px;
+    border: none;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
+    color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 18px;
+    transition: color, background-color 0.8s ease-in-out;
+}
+
+.button-match:hover{
+    color: black;
+    background-color: lightpink;
+}
+
+.button-re-match{
+    border: none;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 18px;
+    transition: color, background-color 0.3s ease-in-out;
+}
+
+.button-re-match:hover{
+    color: red;
+    background-color: yellowgreen;
+}
+
+@media screen and (max-width: 856px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .wrapper-1{
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .wrapper-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .input-male{
+        display: block;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 426px) {
+    .wrapper-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button-match{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .button-re-match{
+       display: block;
+        margin: 0 auto;
+    }
+}
+
+

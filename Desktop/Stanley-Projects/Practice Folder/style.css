@@ -1,0 +1,53 @@
+.js-first-object {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+}
+
+.due-date {
+  margin-left: 300px;
+}
+
+.age {
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.cost-cents {
+  margin-bottom: 20px;
+}  
+
+.one {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid red;
+  font-size: 30px;
+  left: 80px;
+}
+
+.one .tooltip {
+  position: absolute;
+  background-color: gray;
+  bottom: -80px;
+  padding: 6px 13px 6px 13px;
+  border-radius: 5px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+
+}
+
+.one:hover .tooltip {
+  opacity: 1;
+}

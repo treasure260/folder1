@@ -1,0 +1,55 @@
+body{
+    background: salmon;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.display-name{
+    font-size: 3rem;
+    margin-bottom: 40px;
+
+    
+}
+
+.display-code{
+    font-size: 3rem;
+
+    
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.6);
+}
+
+.btn{
+    padding: 15px;
+    color: black;
+    font-size: 5rem;
+    font-weight: 700;
+    border-radius: 7px;
+    border: none;
+    background: rgba(255,255,255,0.3);
+    /* filter: grayscale();
+    transition: filter .2s ease-in-out; */
+    transition: background-color .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    /* filter: grayscale(0); */
+    background-color: aqua;
+}
+
+/* .emoji-name{
+    color: rgba(46, 9, 231, 0.887);
+    font-size: 20px;
+} */
