@@ -1,1 +1,1 @@
-console.log('version1 restored');
+console.log('version1 updated');
